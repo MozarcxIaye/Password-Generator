@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #d35cd3,
+    #c15dd4,
+    #ae5ed4,
+    #9a5ed3,
+    #865ed1,
+    #8a5bcd,
+    #8e57c9,
+    #9154c5,
+    #aa4abc,
+    #bf3fb0,
+    #d133a2,
+    #e02592
+  );
+  font-family: poppins;
+}
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1.3rem;
+}
+
+.container > h2 {
+  color: rgb(244, 239, 239);
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #b9b2b2;
+}
+.wrapper {
+  margin-top: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.input-box {
+  padding: 0;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+.input-box input {
+  margin: 0;
+  height: 100%;
+  width: 85%;
+  border-radius: 18px;
+  padding-left: 1rem;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  font-family: poppins;
+  color: #222;
+  font-weight: 500;
+}
+.input-box span{
+  cursor: pointer;
+}
+.pass-length {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1d2939;
+}
+.pass-length input {
+  width: 100%;
+  cursor: pointer;
+}
+.pass-length .details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.pass-setting {
+  margin-top: 0.85rem;
+}
+.title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1d2939;
+}
+.options {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 0.75rem;
+  grid-column-gap: 18px;
+}
+.option {
+  list-style: none;
+}
+.option input {
+  cursor: pointer;
+}
+.generate-btn {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-family: poppins;
+}
+.generate-btn:hover {
+  background: rgba(216, 215, 215, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-family: poppins;
+}
